@@ -30,7 +30,7 @@ Bing必应壁纸PHP单文件实现的API
 240x240
 ```
 
-## 示例  
+## 示例(不保证随时可用，建议自行搭建)  
 ```
 #无参数，直接跳转今天1920x1080图片
 https://haoduck.com/demo/bing/index.php
@@ -49,3 +49,10 @@ https://haoduck.com/demo/bing/index.php?resolution=320x320
 
 不懂PHP，一边百度一边写的。代码可读性可能不怎么好。  
 
+## 日志  
+
+### 2020/02/06  
+新增缓存功能，每分钟只向Bing请求一次，以免访问频率过快被ban掉IP。  
+
+### 2020/02/03  
+初次提交。  
